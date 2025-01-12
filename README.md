@@ -17,7 +17,9 @@ This script is designed to simplify the installation and configuration of the Op
 Run the following command in your terminal:
 
 ```bash
-curl -fsSL https://github.com/toolleap/setup-opennebula-cli/setup_opennebula_cli.sh | bash
+curl -fsSL -o setup_opennebula_cli.sh https://raw.githubusercontent.com/toolleap/setup-opennebula-cli/refs/heads/main/setup_opennebula_cli.sh
+chmod +x setup_opennebula_cli.sh
+./setup_opennebula_cli.sh
 ```
 
 ## What is OpenNebula CLI?
